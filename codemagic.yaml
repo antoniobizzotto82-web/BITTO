@@ -1,0 +1,28 @@
+workflows:
+  android-workflow:
+    name: Android Workflow
+    instance_type: mac_mini_m1
+    environment:
+      groups:
+        # Si usas keystore para firmar la APK/AAB, agrégalo en las variables de entorno de Codemagic
+        - android_credentials
+      vars:
+        PACKAGE_NAME: "com.bittotv.app"
+    scripts:
+      - name: Build Android App (APK / App Bundle)
+        script: |
+          # Damos permisos de ejecución agradlew si es necesario
+          chmod +x gradlew
+          # Compilamos el bundle de Android (AAB) o APK release
+          ./bundleRelease
+          # O si prefieres APK: ./gradlew assembleRelease
+    artifacts:
+      - build/outputs/**/*.apk
+      - build/outputs/**/*.aab
+    publishing:
+      email:
+        recipients:
+          - tu_correo@example.com
+        notify:
+          success: true
+          failure: true
