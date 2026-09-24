@@ -1,3 +1,4 @@
+
 workflows:
   android-workflow:
     name: Android Workflow
@@ -8,15 +9,12 @@ workflows:
       vars:
         PACKAGE_NAME: "com.bizzotto.bitto"
     scripts:
-      - name: Grant execution permission for Gradle
-        script: |
-          chmod +x gradlew
       - name: Build Android App Bundle (AAB)
         script: |
-          ./gradlew bundleRelease
+          gradle bundleRelease
       - name: Build APK Release
         script: |
-          ./gradlew assembleRelease
+          gradle assembleRelease
     artifacts:
       - app/build/outputs/**/*.apk
       - app/build/outputs/**/*.aab
