@@ -8,15 +8,11 @@ workflows:
       vars:
         PACKAGE_NAME: "com.bizzotto.bitto"
     scripts:
-      - name: Build Android App Bundle (AAB)
+      - name: Build Debug APK
         script: |
-          gradle bundleRelease
-      - name: Build APK Release
-        script: |
-          gradle assembleRelease
+          gradle assembleDebug
     artifacts:
-      - app/build/outputs/**/*.apk
-      - app/build/outputs/**/*.aab
+      - app/build/outputs/apk/debug/app-debug.apk
     publishing:
       email:
         recipients:
