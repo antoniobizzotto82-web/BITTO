@@ -1,8 +1,22 @@
 #EXTM3U
-# Deportes: señales/plataformas oficiales. ESPN Premium requiere suscripción.
+# Deportes: señales, plataformas oficiales y transmisiones de fútbol de la República Argentina
 #EXTINF:-1,DEPORTV — Canal del Deporte Argentino
 https://deportv.gob.ar/
-#EXTINF:-1,ESPN — Disney+ Premium (requiere suscripción)
-https://www.disneyplus.com/es-ar
 #EXTINF:-1,TyC Sports — oficial
 https://www.tycsports.com/
+#EXTINF:-1,TNT Sports — Pack Fútbol / TNT Sports Go (requiere suscripción)
+https://tntsports.com.ar/
+#EXTINF:-1,ESPN Premium — Pack Fútbol / Disney+ (requiere suscripción)
+https://www.disneyplus.com/es-ar
+#EXTINF:-1,ESPN — Disney+ (requiere suscripción)
+https://www.disneyplus.com/es-ar
+#EXTINF:-1,DeporTV Streaming / Contenidos en Vivo
+https://www.cont.ar/
+#EXTINF:-1,TyC Sports Play — Streaming oficial
+https://play.tycsports.com/
+#EXTINF:-1,El Trece — Partidos liberados y Torneo Local (Streaming)
+https://www.eltrecetv.com.ar/
+#EXTINF:-1,Telefe — Partidos de la Selección Argentina (Streaming)
+https://mitelefe.com/
+#EXTINF:-1,TV Pública — Torneo de la Liga / Fútbol Para Todos (Histórico y especiales)
+https://www.tvpublica.com.ar/
