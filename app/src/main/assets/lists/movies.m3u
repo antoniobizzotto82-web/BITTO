@@ -1,5 +1,5 @@
 #EXTM3U
-# Fuentes oficiales/gratuitas y servicios legales
+# Fuentes oficiales, servicios legales y canales de películas en vivo
 # Cine.AR: cine argentino y contenidos audiovisuales
 #EXTINF:-1,CINE.AR Play — oficial
 https://play.cine.ar/
@@ -8,4 +8,19 @@ https://play.cine.ar/
 https://play.mercadolibre.com.ar/
 # Pluto TV — películas y TV gratis
 #EXTINF:-1,Pluto TV — Películas
+https://pluto.tv/latam/
+# Canales de cine en vivo y plataformas de streaming legal
+#EXTINF:-1,TCM — Clásicos del Cine (Pluto TV / Streaming)
+https://pluto.tv/latam/
+#EXTINF:-1,Space — Cine de Acción y Películas (Pluto TV / Streaming)
+https://pluto.tv/latam/
+#EXTINF:-1,Cinecanal — Cine y Estreno (Plataforma Oficial / Streaming)
+https://www.cinecanal.com/
+#EXTINF:-1,Pluto TV Cine Acción — Gratis en vivo
+https://pluto.tv/latam/
+#EXTINF:-1,Pluto TV Cine Comedia — Gratis en vivo
+https://pluto.tv/latam/
+#EXTINF:-1,Pluto TV Cine Drama — Gratis en vivo
+https://pluto.tv/latam/
+#EXTINF:-1,Pluto TV Cine Thriller — Gratis en vivo
 https://pluto.tv/latam/
