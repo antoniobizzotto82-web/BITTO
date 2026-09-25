@@ -1,9 +1,19 @@
 #EXTM3U
-# Contenido infantil y noticias mediante plataformas oficiales
+# Contenido infantil extendido y noticias mediante plataformas oficiales
+#EXTINF:-1,El Payaso Plim Plim — Oficial YouTube / Streaming
+https://www.youtube.com/@PlimPlimEspanol
 #EXTINF:-1,Pakapaka — oficial
 https://www.pakapaka.gob.ar/
 #EXTINF:-1,El Reino Infantil — Pluto TV
 https://pluto.tv/us/watch/live-tv/29996/
+#EXTINF:-1,Junior Express / Disney Junior — Canales Infantiles Oficiales
+https://www.disneyplus.com/
+#EXTINF:-1,Cantar y Jugar - El Reino Infantil — Oficial
+https://www.youtube.com/@ElReinoInfantil
+#EXTINF:-1,Nick Jr. / Nickelodeon — Oficial Streaming
+https://www.clarovideo.com/
+#EXTINF:-1,Cartoon Network / Cartoonito — Oficial
+https://www.max.com/
 #EXTINF:-1,Mercado Play — Infantil
 https://play.mercadolibre.com.ar/filtrar/infantil
 #EXTINF:-1,TV Pública — oficial
