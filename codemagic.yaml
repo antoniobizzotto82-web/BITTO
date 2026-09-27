@@ -10,15 +10,15 @@ workflows:
         PACKAGE_NAME: "com.bittotv.app"
 
     scripts:
-      - name: Build release APK
+      - name: Build debug APK
         script: |
           if [ ! -f gradle/wrapper/gradle-wrapper.jar ] || [ ! -s gradle/wrapper/gradle-wrapper.jar ]; then
             curl -L --fail -o /tmp/gradle.zip https://services.gradle.org/distributions/gradle-8.7-bin.zip
             unzip -q /tmp/gradle.zip -d /tmp
-            /tmp/gradle-8.7/bin/gradle assembleRelease
+            /tmp/gradle-8.7/bin/gradle assembleDebug
           else
-            ./gradlew assembleRelease
+            ./gradlew assembleDebug
           fi
 
     artifacts:
-      - app/build/outputs/apk/release/app-release.apk
+      - app/build/outputs/apk/debug/app-debug.apk
